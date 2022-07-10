@@ -1,0 +1,18 @@
+//      Mobi Header
+
+@media screen and (max-width: 767px) {
+  .header {
+    display: flex;
+    justify-content: center;
+
+    & .container {
+      position: fixed;
+      height: 60px;
+      width: 100%;
+      background-color: #fff;
+    }
+  }
+  .zero {
+    height: 60px;
+  }
+}

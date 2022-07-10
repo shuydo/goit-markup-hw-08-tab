@@ -1,0 +1,24 @@
+//      Tablet Footer
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer {
+    &-logo {
+      margin-left: 100px;
+    }
+    & address {
+      display: flex;
+    }
+  }
+  .address-item {
+    text-align: center;
+    margin-left: 61px;
+  }
+  .join-box {
+    margin-top: 5px;
+    margin-right: calc(89px - 15px);
+  }
+  .subscribe-email {
+    margin-left: calc(166px - 15px);
+    margin-right: calc(152px - 15px);
+  }
+}

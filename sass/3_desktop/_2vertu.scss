@@ -1,0 +1,11 @@
+// DeskTop Vertu
+
+@media screen and (min-width: $dt-res) {
+  .vertu {
+    padding: 94px 0;
+
+    &-item {
+      width: calc((100% - 4 * 2 * 15px) / 4);
+    }
+  }
+}

@@ -1,0 +1,16 @@
+//      Mobile Footer
+
+@media screen and (max-width: 767px) {
+  .footer {
+    &-logo {
+      text-align: center;
+    }
+    & address {
+      text-align: center; // M
+    }
+  }
+  .soc-links {
+    fill: #fff;
+    margin: 0 auto;
+  }
+}

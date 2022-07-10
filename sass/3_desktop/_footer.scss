@@ -1,0 +1,58 @@
+//      Desktop Footer
+
+@media screen and (min-width: $dt-res) {
+  .footer .container {
+    display: flex;
+  }
+  .footer address {
+    width: 231px;
+    height: 81px;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .address-item .email,
+  .address-item .phone {
+    display: block;
+    margin-top: 9px;
+  }
+  .join-box {
+    height: 80px;
+    margin-left: 70px;
+    margin-top: 12px;
+
+    text-align: left;
+  }
+  .soc-list-link {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .join-box .soc-links {
+    display: flex;
+    justify-content: space-between;
+
+    fill: #afb1b8;
+  }
+  /* ------------------- ПОДПИСКА --------------------*/
+  .subscribe-email {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    width: 570px;
+    height: 86px;
+    margin-left: 93px;
+    margin-top: 12px;
+
+    & label {
+      width: 358px;
+    }
+    & button {
+      margin: 0;
+    }
+  }
+
+  .subscribe-input {
+    padding-left: 16px;
+    
+    width: 358px;
+  }
+}
