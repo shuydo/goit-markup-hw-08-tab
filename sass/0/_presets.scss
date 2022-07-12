@@ -1,11 +1,11 @@
 body {
-  // font-family: Roboto; // font-style: normal;
-  font-family:  serif;
+  font-family: Roboto;
   /*не ясно, почему нет у элемента 1st, в TDs*/
   // border-width: 1px;
 }
 img {
   display: block;
+  width: 100%;
 }
 h1,
 h2,
@@ -44,7 +44,4 @@ address {
   @media screen and (min-width: 1200px) {
     max-width: 1200px;
   }
-}
-body {
-  font-family: serif;
 }
