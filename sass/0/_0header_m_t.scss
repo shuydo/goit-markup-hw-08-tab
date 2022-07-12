@@ -1,7 +1,7 @@
 //          0 Header
 
 .header .container {
-  height: 80px;
+  height: 60px;
   border-bottom: 1px solid #ececec; //maket by
 }
 
@@ -10,6 +10,5 @@
   width: 100%;
   display: flex;
   align-items: center;
-  
-  justify-content: space-between;
+  justify-content: space-between; 
 }

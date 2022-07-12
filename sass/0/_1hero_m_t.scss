@@ -1,11 +1,25 @@
-//          0 Hero
+//          0 Hero_m_t
 
 .hero {
   padding: 118px 0;
-  background-repeat: no-repeat;
-  background-position: center top;
-
-  & .container{
+  padding: 76px 0;
+  // @media screen and (min-device-pixel-ratio: 2),
+  //   (min-resolution: 192dpi),
+  //   (min-resolution: 2dppx) {
+  //   background-image: linear-gradient(
+  //       rgba(47, 48, 58, 0.4),
+  //       rgba(47, 48, 58, 0.4)
+  //     ),
+  //     url(../images/mobile/img@2x.jpg);
+  // }
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/mobile/img_320_fh.jpg);
+  // background-repeat: no-repeat;
+  // background-position: center top;
+  & .container {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -20,12 +34,17 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #fff;
+    color: #eee;
   }
   & .button {
     // margin: 30px auto 0 auto;
     margin-top: 30px;
     color: #fff;
     background-color: var(--accent-color);
+
+    &:hover {
+      background-color: var(--accent-color-send-btn);
+    }
   }
 }
