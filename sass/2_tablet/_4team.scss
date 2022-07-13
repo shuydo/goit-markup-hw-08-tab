@@ -1,7 +1,14 @@
 //          Tablet Team
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .team-item {
+.team {
+  &-list {
+    margin: -15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &-item {
+    margin: 15px;
     width: calc((100% - 2 * 2 * 15px) / 2);
   }
 }
+

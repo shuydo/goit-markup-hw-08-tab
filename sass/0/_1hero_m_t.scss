@@ -1,8 +1,7 @@
 //          0 Hero_m_t
 
 .hero {
-  padding: 118px 0;
-  padding: 76px 0;
+  padding: 118px 0; // 200-DT 76-ahez
   // @media screen and (min-device-pixel-ratio: 2),
   //   (min-resolution: 192dpi),
   //   (min-resolution: 2dppx) {
@@ -17,8 +16,9 @@
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/mobile/img_320_fh.jpg);
-  // background-repeat: no-repeat;
-  // background-position: center top;
+  background-repeat: no-repeat;
+  background-position: center top;
+  
   & .container {
     display: flex;
     align-items: center;
@@ -30,7 +30,6 @@
     font-weight: 900;
     font-size: 26px;
     line-height: calc(42 / 26);
-    // 60/44 from DT
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -38,7 +37,6 @@
     color: #eee;
   }
   & .button {
-    // margin: 30px auto 0 auto;
     margin-top: 30px;
     color: #fff;
     background-color: var(--accent-color);

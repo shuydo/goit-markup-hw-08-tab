@@ -1,6 +1,4 @@
-//      Mobile Form   from DT
-
-//      Desktop Form
+//      0 Form
 
 .form h2 {
   margin-bottom: 12px;
@@ -9,7 +7,7 @@
   font-size: 20px;
   line-height: calc(23 / 20);
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
   text-align: center;
 }
 .form .icon {
@@ -41,16 +39,15 @@
 .form-label {
   font-weight: normal;
   font-size: 12px;
-  line-height: CALC(14 / 12);
+  line-height: calc(14 / 12);
   letter-spacing: 0.01em;
 
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .form-input {
   width: 100%;
   margin: 0;
   padding: 12px 0 12px 42px;
-  // font: inherit;
   border-radius: 3px;
   border: 1px solid rgba(33, 33, 33, 0.2);
 
@@ -83,7 +80,7 @@
     font-size: 12px;
     line-height: calc(14 / 12);
 
-    color: #757575;
+    color: var(--primary-text-color);
     vertical-align: middle;
   }
 
@@ -117,6 +114,6 @@
   background-color: var(--accent-color);
 }
 .form button:hover,
-.form button:focus{
+.form button:focus {
   background-color: var(--accent-color-send-btn);
 }

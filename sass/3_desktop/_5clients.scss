@@ -1,9 +1,6 @@
 //          Desktop Clients
 
-@media screen and (min-width: $dt-res) {
   .clients {
-    padding: 94px 0;
-
     &-header {
       margin-bottom: 50px;
 
@@ -14,4 +11,3 @@
       width: calc((100% - 2 * 6 * var(--mci)) / 6);
     }
   }
-}

@@ -1,7 +1,6 @@
-@media screen and (min-width: $dt-res) {
   .direction {
+    padding-top: 0;
     display: block;
-    margin-bottom: 94px;
 
     &-list {
       margin-top: 50px;
@@ -23,11 +22,10 @@
   .moir-content {
     position: absolute;
     bottom: 0;
-    // left: 0;
     width: 100%;
     padding: 27px 0;
 
-    color: #ffffff;
+    color: #fff;
     background: rgba(47, 48, 58, 0.8);
 
     font-weight: bold;
@@ -37,4 +35,3 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
   }
-}

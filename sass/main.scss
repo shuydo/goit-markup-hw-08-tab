@@ -1,15 +1,15 @@
 $dt-res: 1200px;
-// высоты кнопок увеличивает бордер 
+// высоты кнопок увеличивает бордер
 
-// soc-link вынести в компоненты, что будут 
+// soc-link вынести в компоненты, что будут
 // модифицироваться в зависимости от фона
 
 // не смог перебить толщину бордера кнопки
 
 @import "./0/base";
 
-@import "./1_mobile/bp_480";
+@media screen and (min-width: 480px) {@import "./1_mobile/bp_480";}
 
-// @import "./2_tablet/bp_768";
+@media screen and (min-width: 768px) {@import "./2_tablet/bp_768";}
 
-// @import "./3_desktop/bp_1200";
+@media screen and (min-width: 1200px) {@import "./3_desktop/bp_1200";}

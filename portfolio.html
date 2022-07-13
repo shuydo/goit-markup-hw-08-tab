@@ -17,7 +17,6 @@
   </head>
   <body>
     <header class="header">
-      <div class="zero"></div>
       <div class="container">
         <nav class="nav">
           <!-- <a class="company-logo" href="">Логотип</a> -->
@@ -80,6 +79,8 @@
     </header>
     <!----- Собственно портфолио ----->
     <main>
+      <div class="zero"></div>
+
       <section class="portfolio">
         <div class="container">
           <h1 class="invisible">Наши проекты</h1>
@@ -101,20 +102,28 @@
               <button class="button">Маркетинг</button>
             </li>
           </ul> -->
-          <input id="cat0" name="set" type="radio" class="selector0" checked />
-          <label for="cat0">Все</label>
-
-          <input id="cat1" name="set" type="radio" class="selector1" />
-          <label for="cat1">Веб-сайты</label>
-
-          <input id="cat2" name="set" type="radio" class="selector3" />
-          <label for="cat2">Приложения</label>
-
-          <input id="cat3" name="set" type="radio" class="selector2" />
-          <label for="cat3">Дизайн</label>
-
-          <input id="cat4" name="set" type="radio" class="selector4" />
-          <label for="cat4">Маркетинг</label>
+          <ul class="select list" style="display: flex; flex-wrap: wrap">
+            <li>
+              <input id="cat0" name="set" type="radio" class="sel0" checked />
+              <label for="cat0">Все</label>
+            </li>
+            <li>
+              <input id="cat1" name="set" type="radio" class="sel1" />
+              <label for="cat1">Веб-сайты</label>
+            </li>
+            <li>
+              <input id="cat2" name="set" type="radio" class="sel3" />
+              <label for="cat2">Приложения</label>
+            </li>
+            <li>
+              <input id="cat3" name="set" type="radio" class="sel2" />
+              <label for="cat3">Дизайн</label>
+            </li>
+            <li>
+              <input id="cat4" name="set" type="radio" class="sel4" />
+              <label for="cat4">Маркетинг</label>
+            </li>
+          </ul>
 
           <!----- Карточки ---  -->
           <!-- <ul class="portfolio-items list">
@@ -745,16 +754,27 @@
           </ul> -->
 
           <ul class="products list">
-            <li class="cat1">
+            <!-- <li class="cat1">
               <div class="thumb">
                 <img src="images/mobile/portf-img1.jpg" />
-                <h2>Технокряк</h2>
-                <p>Веб-сайт</p>
+                <p class="slide">
+                  Технокряк это современная площадка распространения
+                  коронавируса. Компании используют эту платформу для цифрового
+                  шпионажа и атак на защищённые сервера конкурентов.
+                </p>
               </div>
-            </li>
-            <li class="cat2">
+              <h2 class="name">Технокряк</h2>
+              <p class="description">Веб-сайт</p>
+            </li> -->
+
+            <!-- <li class="cat2">
               <div class="thumb">
                 <img src="images/mobile/portf-img2.jpg" />
+                <p class="slide">
+                  Технокряк это современная площадка распространения коронавируса.
+                  Компании используют эту платформу для цифрового шпионажа и атак на
+                  защищённые сервера конкурентов.
+                </p>
                 <h2>Постер New Orlean vs Golden Star</h2>
                 <p>Дизайн</p>
               </div>
@@ -807,7 +827,7 @@
                 <h2>Growing Business</h2>
                 <p>Приложение</p>
               </div>
-            </li>
+            </li> -->
           </ul>
         </div>
       </section>
@@ -816,7 +836,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-tablet">
-          <div>
+          <div class="logo-address">
             <div class="footer-logo">
               <span class="logo part1">Web</span
               ><span class="logo part2">Studio</span>
@@ -851,7 +871,7 @@
               </ul>
             </address>
           </div>
-          <!-- Присоединяйтесь -->
+
           <div class="join-box">
             <span class="join-header">присоединяйтесь</span>
             <ul class="soc-links list">
@@ -906,7 +926,7 @@
             </ul>
           </div>
         </div>
-        <!------------------- ПОДПИСКА -------------------->
+
         <form class="subscribe-email">
           <label for="sub-form"
             >Подпишитесь на рассылку

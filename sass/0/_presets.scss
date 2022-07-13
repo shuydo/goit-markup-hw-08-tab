@@ -29,6 +29,14 @@ img {
 address {
   font-style: normal;
 }
+
+section {
+  padding: 60px 0;
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0;
+  }
+}
+
 .container {
   padding: 0 15px;
 

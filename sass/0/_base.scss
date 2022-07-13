@@ -5,15 +5,15 @@
 @import "./utils";
 @import "./components";
 
-                        //  menu_m_t  упразднён
+@import "./menu";
 
-@import "./0header_m_t";
+@import "./0header";
 @import "./1hero_m_t";
 @import "./2vertu_m_t";
-  .direction {display: none;} // @import "./3directions";
+  .direction {display: none;} 
 @import "./4team_m_t"; 
 @import "./5clients_m_t"; 
-@import "./footer_m_t"; 
+@import "./footer"; 
 
 @import "./backdrop_modal";
 @import "./form";

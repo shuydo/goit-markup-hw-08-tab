@@ -1,7 +1,5 @@
-//      Mobile Clients
+//          Mobile Clients
 
-@media screen and (max-width: 767px) {
-  .clients-item {
-    width: calc((100% - 2 * 2 * var(--mci)) / 2);
-  }
+.clients-item {
+  width: calc((100% - 2 * 2 * var(--mci)) / 2);
 }
