@@ -2,7 +2,7 @@
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --text-on-dark-bcg: #fff;
+  --text-on-dark-bg: #fff;
   --primary-bcg-color: #fff;
   --filter-bg: #f5f4fa;
   --accent-color: #2196f3;
@@ -209,9 +209,11 @@ section {
 
 .email:focus,
 .email:hover,
+.email:focus .envelope,
 .email:hover .envelope,
 .phone:focus,
 .phone:hover,
+.phone:focus .smartphone,
 .phone:hover .smartphone,
 .site-nav .link:focus,
 .site-nav .link:hover,
@@ -739,7 +741,7 @@ section {
 #cat3:focus ~ [for=cat3],
 #cat4:focus ~ [for=cat4],
 #cat5:focus ~ [for=cat5] {
-  outline: 2px solid red;
+  outline: 2px solid;
 }
 
 .portfolio input {
@@ -775,6 +777,9 @@ section {
   transform: translateY(-100%);
 }
 .product:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.product:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 

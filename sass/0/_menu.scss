@@ -95,9 +95,11 @@
 }
 .email:focus,
 .email:hover,
+.email:focus .envelope,
 .email:hover .envelope,
 .phone:focus,
 .phone:hover,
+.phone:focus .smartphone,
 .phone:hover .smartphone,
 .site-nav .link:focus,
 .site-nav .link:hover,
