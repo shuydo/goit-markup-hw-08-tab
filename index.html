@@ -31,6 +31,7 @@
             aria-expanded="false"
             aria-controls="menu-container"
             data-menu-button
+            id="menu_btn"
           >
             <svg
               width="40"
@@ -42,7 +43,7 @@
             </svg>
           </button>
           <!-- <div class="menu-container is-open" id="menu-container" data-menu> -->
-          <div class="menu-container" id="menu-container" data-menu>
+          <div class="menu-container" id="menu_container" data-menu>
             <ul class="site-nav list">
               <li>
                 <a class="site-page link is-current" href="index.html"
@@ -79,12 +80,13 @@
 
     <main>
       <div class="zero"></div>
+
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">
             Эффективные решения <br />для вашего бизнеса
           </h1>
-          <button type="button" class="button" data-modal-open>
+          <button type="button" class="button" data-modal-open id="openModalBtn">
             Заказать услугу
           </button>
         </div>
@@ -846,9 +848,9 @@
       </div>
     </footer>
     <!----------- <div class="backdrop is-hidden" data-modal> -------->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal id="modal">
       <div class="modal">
-        <button type="button" class="close-btn" data-modal-close>
+        <button type="button" class="close-btn" data-modal-close id="closeModalBtn">
           <svg width="11" height="11">
             <use href="./images/sprite2.svg#c"></use>
           </svg>

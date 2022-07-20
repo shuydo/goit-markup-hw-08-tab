@@ -1,11 +1,11 @@
 .list {
   list-style: none;
+  padding: 0;
 }
 .link {
   text-decoration: none;
   color: currentColor;
-  // text-decoration-color: currentColor; ! ничего не делает
-}
+} // text-decoration-color: currentColor; ! ничего не делает
 .invisible {
   position: absolute;
   width: 1px;
@@ -18,3 +18,4 @@
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.scroll-hidden { overflow: hidden }

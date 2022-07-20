@@ -6,7 +6,7 @@ $dt-res: 1200px;
 
 // не смог перебить толщину бордера кнопки
 
-@import "./0/base";
+@import "./0/base";  
 
 @media screen and (min-width: 480px) {@import "./1_mobile/bp_480";}
 

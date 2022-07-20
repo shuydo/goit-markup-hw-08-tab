@@ -1,11 +1,9 @@
 //      0 Form
 
 .form h2 {
-  margin-bottom: 12px;
-
   font-weight: bold;
   font-size: 20px;
-  line-height: calc(23 / 20);
+  line-height: calc(30 / 20);
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   text-align: center;
@@ -25,7 +23,7 @@
 .form-field {
   position: relative;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 
   &:focus-within > .icon {
     fill: var(--accent-color);
@@ -109,7 +107,7 @@
 }
 .form button {
   padding: 10px 55px;
-  margin: 30px auto 0;
+  margin: 5px auto 0;
   color: #fff;
   background-color: var(--accent-color);
 }

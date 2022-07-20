@@ -1,11 +1,9 @@
 //                     Desktop styles
+section {padding: 94px 0}
+.container {max-width: 1200px}
 
-// @import "./4components"; упразднён
 
 @import "./menu";
-
-
-
 
 @import "./0header";
 @import "./1hero";

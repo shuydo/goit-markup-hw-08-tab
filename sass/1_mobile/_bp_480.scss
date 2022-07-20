@@ -1,21 +1,21 @@
 //              Mobi
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+}
 
 
 
 
 
-
-    // @import "./menu";
-
-    // @import "./0header";
 @import "./1hero";
-@import "./2vertu";          
+@import "./2vertu";
 
 
 @import "./5clients";
-    // @import "./footer";
 
-@import "./backdrop_modal";  
-@import "./form";            
+
+@import "./backdrop_modal";
+@import "./form";
 
 @import "./portfolio";

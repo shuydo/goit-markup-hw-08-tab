@@ -1,19 +1,11 @@
 (() => {
-  // const menuBtnRef = document.querySelector("[data-menu-button]");
-  const menuBtnRef = document.querySelector(".menu-button");
-  // console.log("menuBtnRef: ", menuBtnRef);
+  const menu_btn = document.querySelector("#menu_btn");
+  menu_btn.addEventListener("click", () => {
+    const expanded = menu_btn.getAttribute("aria-expanded") === "true" || false;
 
-  // const mobileMenuRef = document.querySelector("[data-menu]");
-  const mobileMenuRef = document.querySelector("#menu-container");
-  // console.log("mobileMenuRef: ", mobileMenuRef);
-
-  menuBtnRef.addEventListener("click", () => {
-    const expanded =
-      menuBtnRef.getAttribute("aria-expanded") === "true" || false;
-
-    menuBtnRef.classList.toggle("is-open");
-    menuBtnRef.setAttribute("aria-expanded", !expanded);
-
-    mobileMenuRef.classList.toggle("is-open");
+    menu_btn.setAttribute("aria-expanded", !expanded);
+    menu_btn.classList.toggle("is-open");
+    menu_container.classList.toggle("is-open");
+    document.body.classList.toggle("scroll-hidden");
   });
 })();
