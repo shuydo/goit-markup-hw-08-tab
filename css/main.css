@@ -265,7 +265,7 @@ section {
   justify-content: center;
   background-repeat: no-repeat;
   background-position: center top;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile/img.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), -webkit-image-set(url(../images/mobile/img.jpg) 1x);
 }
 .hero-title {
   font-weight: 900;
