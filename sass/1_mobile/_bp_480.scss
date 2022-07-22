@@ -2,20 +2,18 @@
 .container {
   max-width: 480px;
   margin: 0 auto;
+
+  .header & {
+    max-width: 767px;
+  }
 }
 
+@import "1hero";
+@import "2vertu";
 
+@import "5clients";
 
+@import "backdrop_modal";
+@import "form";
 
-
-@import "./1hero";
-@import "./2vertu";
-
-
-@import "./5clients";
-
-
-@import "./backdrop_modal";
-@import "./form";
-
-@import "./portfolio";
+@import "portfolio";

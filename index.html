@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Вэб-студия</title>
+    <title>Вэб-студия tab</title>
 
     <link
       rel="stylesheet"
@@ -42,13 +42,14 @@
               <use class="icon-menu" href="./images/sprite-r.svg#menu"></use>
             </svg>
           </button>
-          <!-- <div class="menu-container is-open" id="menu-container" data-menu> -->
+
           <div class="menu-container" id="menu_container" data-menu>
+            <!-- <div class="menu-container" id="menu_container" data-menu> -->
             <ul class="site-nav list">
               <li>
-                <a class="site-page link is-current" href="index.html"
-                  >Студия</a
-                >
+                <a class="site-page link is-current" href="index.html">
+                  Студия
+                </a>
               </li>
               <li>
                 <a class="site-page link" href="portfolio.html">Портфолио</a>
@@ -79,7 +80,7 @@
     </header>
 
     <main>
-      <div class="zero"></div>
+      <!-- <div class="zero"></div> -->
 
       <section class="hero">
         <div class="container">
@@ -154,7 +155,6 @@
           <h2 class="direction-title">Чем мы занимаемся</h2>
           <ul class="direction-list list">
             <li class="thumb">
-              <!-- <img src="images/box1.jpg" alt="Программист за работой" width="370" height="294" /> -->
               <picture>
                 <source
                   media="(min-width: 1200px)"
@@ -172,14 +172,12 @@
                     ./images/desktop/box1@2x.jpg 2x
                   "
                 />
-                <!-- need with "w" width="270" height="260" -->
                 <img src="./images/dummy.webp" alt="Программист за работой" />
               </picture>
 
               <p class="moir-content">Десктопные приложения</p>
             </li>
             <li class="thumb">
-              <!-- <img src="images/box2.jpg" alt="Дизайнер за работой" width="370" height="294" /> -->
               <picture>
                 <source
                   media="(min-width: 1200px)"
@@ -197,13 +195,11 @@
                     ./images/desktop/box2@2x.jpg 2x
                   "
                 />
-                <!-- need with "w" width="270" height="260" -->
                 <img src="./images/dummy.webp" alt="Дизайнер за работой" />
               </picture>
               <p class="moir-content">Мобильные приложения</p>
             </li>
             <li class="thumb">
-              <!-- <img src="images/box3.jpg" alt="Дизайнер выбирает колор" width="370" height="294" /> -->
               <picture>
                 <source
                   media="(min-width: 1200px)"
@@ -221,7 +217,6 @@
                     ./images/desktop/box3@2x.jpg 2x
                   "
                 />
-                <!-- need with "w" width="270" height="260" -->
                 <img src="./images/dummy.webp" alt="Дизайнер выбирает колор" />
               </picture>
               <p class="moir-content">Дизайнерские решения</p>
@@ -235,16 +230,7 @@
           <h2 class="team-header">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-item">
-              <!-- <img src="images/img1.jpg" alt="Игорь" width="270" height="260" /> -->
-              <!-- для десктопа -->
-              <!-- <img 
-                alt="Игорь"
-                src="images/img1.jpg"
-                srcset="
-                  images/tablet/img1.jpg 354w;
-                  "
-                /> -->
-              <picture>
+                           <picture>
                 <source
                   media="(max-width: 767px)"
                   type="image/webp"
@@ -292,7 +278,6 @@
                   "
                 />
                 
-                <!-- need with "w" width="270" height="260" -->
                 <img src="./images/mobile/img1.jpg" alt="Игорь" />
               </picture>
 
@@ -350,8 +335,6 @@
               </ul>
             </li>
             <li class="team-item">
-              <!-- <img src="images/img2.jpg" alt="Ольга" /> -->
-              <!-- width="270" height="260" /> -->
 
               <picture>
                 <source
@@ -400,7 +383,6 @@
                     ./images/desktop/img2@2x.jpg 2x
                   "
                 />
-                <!-- need with "w" width="270" height="260" -->
                 <img src="./images/mobile/img2.jpg" alt="Ольга" />
               </picture>
 
@@ -457,8 +439,6 @@
               </ul>
             </li>
             <li class="team-item">
-              <!-- <img src="images/img3.jpg" alt="Николай" /> -->
-              <!-- width="270" height="260" /> -->
 
               <picture>
                 <source
@@ -507,7 +487,6 @@
                     ./images/desktop/img3@2x.jpg 2x
                   "
                 />
-                <!-- need with "w" width="270" height="260" -->
                 <img src="./images/mobile/img3.jpg" alt="Николай" />
               </picture>
 
@@ -565,8 +544,6 @@
               </ul>
             </li>
             <li class="team-item">
-              <!-- <img src="images/img4.jpg" alt="Михаил" /> -->
-              <!-- width="270" height="260" /> -->
 
               <picture>
                 <source
@@ -615,7 +592,6 @@
                     ./images/desktop/img4@2x.jpg 2x
                   "
                 />
-                <!-- need with "w" width="270" height="260" -->
                 <img src="./images/mobile/img4.jpg" alt="Михаил" />
               </picture>
 
@@ -682,7 +658,6 @@
           <ul class="clients-list list">
             <li class="clients-item">
               <a class="clients-link" href="/">
-                <!-- 44x49 -->
                 <svg class="clients-icon">
                   <use href="./images/sprite.svg#logo1"></use>
                 </svg>
@@ -690,7 +665,6 @@
             </li>
             <li class="clients-item">
               <a class="clients-link" href="/">
-                <!-- 40x52 -->
                 <svg class="clients-icon">
                   <use href="./images/sprite.svg#logo2"></use>
                 </svg>
@@ -698,7 +672,6 @@
             </li>
             <li class="clients-item">
               <a class="clients-link" href="/">
-                <!-- 41x43 -->
                 <svg class="clients-icon">
                   <use href="./images/sprite.svg#logo3"></use>
                 </svg>
@@ -706,7 +679,6 @@
             </li>
             <li class="clients-item">
               <a class="clients-link" href="/">
-                <!-- 80x42 -->
                 <svg class="clients-icon">
                   <use href="./images/sprite.svg#logo4"></use>
                 </svg>
@@ -714,7 +686,6 @@
             </li>
             <li class="clients-item">
               <a class="clients-link" href="/">
-                <!-- 59x47 -->
                 <svg class="clients-icon">
                   <use href="./images/sprite.svg#logo5"></use>
                 </svg>
@@ -722,7 +693,6 @@
             </li>
             <li class="clients-item">
               <a class="clients-link" href="/">
-                <!-- 88x45 -->
                 <svg class="clients-icon">
                   <use href="./images/sprite.svg#logo6"></use>
                 </svg>
@@ -847,7 +817,7 @@
         </form>
       </div>
     </footer>
-    <!----------- <div class="backdrop is-hidden" data-modal> -------->
+
     <div class="backdrop is-hidden" data-modal id="modal">
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close id="closeModalBtn">
@@ -868,8 +838,6 @@
                 name="name"
                 placeholder=" "
               />
-              <!-- <span class="icon"></span> -->
-              <!-- <svg class="icon" width="15" height="15"> -->
               <svg class="icon">
                 <use href="./images/sprite2.svg#person"></use>
               </svg>
@@ -908,7 +876,6 @@
           </label>
 
           <label class="form-label">
-            <!-- в десктоп вер. было "5" -->
             Комментарий
             <div class="form-field">
               <textarea
@@ -938,9 +905,10 @@
         </form>
       </div>
     </div>
+
     <script src="js/modal.js"></script>
     <script src="js/menu.js" type="module"></script>
     <script src="js/input-grab.js"></script>
-    <!-- Последний скрипт выводит в консоль результат ввода в форму class="form" (здесь '.form')  -->
+    <!-- выводит в консоль результат ввода в форму class="form" (здесь '.form')  -->
   </body>
 </html>

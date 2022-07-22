@@ -1,22 +1,22 @@
 //          Base
 
-@import "./variables";
-@import "./precets";
-@import "./utils";
-@import "./components";
+@import "variables";
+@import "presets";
+@import "utils";
+@import "components";
 
-@import "./menu";
+@import "menu";
 
-@import "./0header";
-@import "./1hero_m_t";
-@import "./2vertu_m_t";
+@import "0header";
+@import "1hero";
+@import "2vertu";
   .direction {display: none;} 
-@import "./4team_m_t"; 
-@import "./5clients_m_t"; 
-@import "./footer"; 
+@import "4team"; 
+@import "5clients"; 
+@import "footer"; 
 
-@import "./backdrop_modal";
-@import "./form";
+@import "backdrop_modal";
+@import "form";
 
-@import "./portfolio";
+@import "portfolio";
 

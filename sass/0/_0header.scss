@@ -9,9 +9,10 @@
   box-sizing: content-box;
   border-bottom: 1px solid #ececec;
   background-color: #fff;
-  position: fixed;
+  position: relative; //fixed;
 
   & .container {
+    // min-width: 767px;
     width: 100%;
     background-color: #fff;
   }

@@ -3,17 +3,17 @@
 
 
 
-@import "./menu";
+@import "menu";
 
-@import "./0header";            
-@import "./1hero";
-@import "./2vertu";
+@import "0header";            
+// @import "1hero";
+@import "2vertu";
 
-@import "./4team";
-@import "./5clients";
-@import "./footer";
-
-
+@import "4team";
+@import "5clients";
+@import "footer";
 
 
-@import "./portfolio";
+
+
+@import "portfolio";

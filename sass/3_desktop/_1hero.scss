@@ -1,26 +1,21 @@
-  //          DT Hero
-  .hero {
-    padding: 200px 0;
+//          DT Hero
 
-    @media screen and (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      background-image: linear-gradient(
-          rgba(47, 48, 58, 0.4),
-          rgba(47, 48, 58, 0.4)
-        ),
-        url(../images/desktop/img@2x.jpg);
-    }
+.hero {
+  .container {
+    max-width: 1600px;
+    height: 600px;
+
     background-image: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(../images/desktop/img.jpg);
-
-    background-size: 1600px 600px;
-
-    &-title {
-      font-size: 44px;
-      line-height: calc(60 / 44);
-    }
+      -webkit-image-set(url(../../images/desktop_w/img.webp) 1x, url(../../images/desktop_w/img@2x.webp)
+            2x, url(../../images/desktop/img.jpg) 1x, url(../../images/desktop/img@2x.jpg)
+            2x);
   }
+
+  &-title {
+    font-size: 44px;
+    line-height: calc(60 / 44);
+  }
+}
