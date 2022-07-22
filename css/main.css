@@ -265,7 +265,7 @@ section {
   justify-content: center;
   background-repeat: no-repeat;
   background-position: center top;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), -webkit-image-set(url(../../images/mobile_w/img.webp) 1x, url(../../images/mobile_w/img@2x.webp) 2x, url(../../images/mobile/img.jpg) 1x, url(../../images/mobile/img@2x.jpg) 2x);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), -webkit-image-set(url(/images/mobile_w/img.webp) 1x);
 }
 .hero-title {
   font-weight: 900;
