@@ -52,6 +52,10 @@
   padding-top: 25px;
   box-sizing: border-box;
 
+  & li:not(:last-child){
+    margin-bottom: 30px;
+  }
+
   & .thumb {
     height: 294px;
     display: flex;

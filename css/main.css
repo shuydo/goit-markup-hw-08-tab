@@ -758,6 +758,9 @@ section {
   padding-top: 25px;
   box-sizing: border-box;
 }
+.products li:not(:last-child) {
+  margin-bottom: 30px;
+}
 .products .thumb {
   height: 294px;
   display: flex;
