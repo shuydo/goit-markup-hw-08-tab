@@ -83,13 +83,14 @@
 }
 
 .contacts a {
-  display: block;
   font-weight: 500;
   font-size: 18px;
   line-height: calc(21 / 18);
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--primary-text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .email {
@@ -100,6 +101,8 @@
 .envelope {
   margin-right: 10px;
   fill: var(--primary-text-color);
+
+  // outline: 1px solid red;
 }
 
 .email:focus,

@@ -9,11 +9,11 @@
   display: inline-block;
   margin-top: 20px;
 }
-.address-item .email,
-.address-item .phone {
-  display: block;
+
+.address-item:not(:first-of-type) {
   margin-top: 9px;
 }
+
 .logo-address {
   margin: 0;
 }
@@ -43,7 +43,7 @@
   width: 570px;
   height: 86px;
   margin: 12px auto 0 93px;
-  
+
   & label {
     width: 358px;
   }

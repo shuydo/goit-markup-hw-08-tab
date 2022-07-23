@@ -1,7 +1,7 @@
 //     Desktop Menu
 
 .part2 {
-  color: #000; //только в этом макете не 212121
+  color: #000; 
 }
 
 .header .container {
@@ -15,6 +15,11 @@
 
 .contacts {
   margin-top: 0;
+
+  & a {
+    font-size: 14px;
+    line-height: calc(16 / 14);
+  }
 }
 
 .email,
@@ -23,10 +28,6 @@
   display: flex;
   align-items: center;
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 
   transition: color var(--t-cubic);
