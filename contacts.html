@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contacts</title>
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a class="logo link" lang="en" href="#" aria-label="Логотип">
+            <span class="part1">Web</span><span class="part2">Studio</span>
+          </a>
+          <button
+            type="button"
+            class="menu-button"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+            id="menu_btn"
+          >
+            <svg
+              width="40"
+              height="40"
+              aria-label="Переключатель мобильного меню"
+            >
+              <use class="icon-cross" href="./images/sprite-r.svg#cross"></use>
+              <use class="icon-menu" href="./images/sprite-r.svg#menu"></use>
+            </svg>
+          </button>
+
+          <div class="menu-container" id="menu_container" data-menu>
+            <ul class="site-nav list">
+              <li>
+                <a class="site-page link" href="index.html"> Студия </a>
+              </li>
+              <li>
+                <a class="site-page link" href="portfolio.html">Портфолио</a>
+              </li>
+              <li>
+                <a class="site-page link is-current" href="#">Контакты</a>
+              </li>
+            </ul>
+
+            <address class="contacts">
+              <a class="email link" lang="en" href="mailto:info@devstudio.com">
+                <svg class="envelope" width="16" height="12">
+                  <use href="./images/sprite.svg#envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+
+              <a class="phone link" href="+380961111111">
+                <svg class="smartphone" width="10" height="16">
+                  <use href="./images/sprite.svg#smartphone"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
+            </address>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>А здесь всё ещё пусто</main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-tablet">
+          <div class="logo-address">
+            <div class="footer-logo">
+              <span class="logo part1">Web</span
+              ><span class="logo part2">Studio</span>
+            </div>
+
+            <address>
+              <ul class="list">
+                <li class="address-item">
+                  <a
+                    class="map-address link"
+                    href="https://goo.gl/maps/LiFf5QtH2XgNbK3g6"
+                    target="_blank"
+                    rel="nofollow noreferrer"
+                  >
+                    г. Киев, пр-т Леси Украинки, 26
+                  </a>
+                </li>
+                <li class="address-item">
+                  <a
+                    class="email link"
+                    lang="en"
+                    href="mailto:info@devstudio.com"
+                  >
+                    info@devstudio.com
+                  </a>
+                </li>
+                <li class="address-item">
+                  <a class="phone link" href="+380961111111"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <!-- Присоединяйтесь -->
+          <div class="join-box">
+            <span class="join-header">присоединяйтесь</span>
+            <ul class="soc-links list">
+              <li>
+                <a
+                  class="soc-list-link"
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  rel="nofollow noreferrer"
+                >
+                  <svg class="soc-icon">
+                    <use href="./images/sprite.svg#instagram1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="soc-list-link"
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="nofollow noreferrer"
+                >
+                  <svg class="soc-icon">
+                    <use href="./images/sprite.svg#twitter1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="soc-list-link"
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="nofollow noreferrer"
+                >
+                  <svg class="soc-icon">
+                    <use href="./images/sprite.svg#facebook1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="soc-list-link"
+                  href="https://www.linkedin.com"
+                  target="_blank"
+                  rel="nofollow noreferrer"
+                >
+                  <svg class="soc-icon">
+                    <use href="./images/sprite.svg#linkedin1"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!------------------- ПОДПИСКА -------------------->
+        <form class="subscribe-email">
+          <label for="sub-form"
+            >Подпишитесь на рассылку
+            <input
+              class="subscribe-input"
+              type="email"
+              name="subscribe"
+              id="sub-form"
+              placeholder="E-mail"
+          /></label>
+
+          <button class="button">
+            Подписаться
+            <svg class="send" width="24" height="24">
+              <use href="./images/sprite2.svg#send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </footer>
+
+    <div class="backdrop is-hidden" data-modal id="modal">
+      <div class="modal">
+        <button
+          type="button"
+          class="close-btn"
+          data-modal-close
+          id="closeModalBtn"
+        >
+          <svg width="11" height="11">
+            <use href="./images/sprite2.svg#c"></use>
+          </svg>
+        </button>
+
+        <form class="form" autocomplete="off">
+          <h2>Оставьте свои данные, мы вам перезвоним</h2>
+
+          <label class="form-label">
+            Имя
+            <div class="form-field">
+              <input
+                type="text"
+                class="form-input"
+                name="name"
+                placeholder=" "
+              />
+              <svg class="icon">
+                <use href="./images/sprite2.svg#person"></use>
+              </svg>
+            </div>
+          </label>
+
+          <label class="form-label">
+            Телефон
+            <div class="form-field">
+              <input
+                type="tel"
+                class="form-input"
+                name="phone"
+                placeholder=" "
+              />
+
+              <svg class="icon">
+                <use href="./images/sprite2.svg#phone"></use>
+              </svg>
+            </div>
+          </label>
+
+          <label class="form-label">
+            Почта
+            <div class="form-field">
+              <input
+                type="email"
+                class="form-input"
+                name="mail"
+                placeholder=" "
+              />
+              <svg class="icon">
+                <use href="./images/sprite2.svg#fenvelop"></use>
+              </svg>
+            </div>
+          </label>
+
+          <label class="form-label">
+            Комментарий
+            <div class="form-field">
+              <textarea
+                class="message"
+                rows="7"
+                name="message"
+                placeholder="Введите текст"
+              ></textarea>
+            </div>
+          </label>
+
+          <label class="accept">
+            <input
+              type="checkbox"
+              name="accept"
+              value="accept"
+              class="accept-input invisible"
+            />
+            <span class="custom-check-box"></span>
+            <span>
+              Соглашаюсь с рассылкой и принимаю
+              <a href="#">Условия договора</a>
+            </span>
+          </label>
+
+          <button class="button" type="button">Отправить</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/modal.js"></script>
+    <script src="js/menu.js" type="module"></script>
+    <script src="js/input-grab.js"></script>
+    <!-- выводит в консоль результат ввода в форму class="form" (здесь '.form')  -->
+  </body>
+</html>

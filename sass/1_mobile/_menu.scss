@@ -1,7 +1,5 @@
 //             Mobil Menu
-@media screen and (max-width: 767px) {
   .menu-button {
-    // outline: none;  // !не работает. Почему?
     display: inline-flex;
     margin: 0;
     padding: 0;    //    не вижу нужды
@@ -37,16 +35,13 @@
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    // 14px;
     line-height: calc(21 / 18);
-    // 16 / 14);
     letter-spacing: 0.02em;
 
     color: var(--title-text-color);
   }
   .site-nav {
     margin-bottom: 60px;
-    // outline: 1px solid black;
   }
   .site-nav li:not(:last-child) {
     margin-bottom: 40px;
@@ -57,7 +52,6 @@
   .link.is-current {
     color: var(--accent-color);
   }
-  //-----------
   .site-nav .link {
     padding-bottom: 8px;
     position: relative;
@@ -84,19 +78,14 @@
   .map-address:focus {
     color: var(--accent-color);
   }
-  //---------------
   .contacts .email,
   .contacts .phone {
     display: block;
     font-weight: 500;
     font-size: 18px;
-    // 12px;
     line-height: calc(21 / 18);
-    // 14 / 12);
     text-align: center;
     color: var(--primary-text-color);
-    // text-decoration-color: var(--primary-text-color);
-    // outline: 1px solid black;
   }
   .email {
     margin-bottom: 16px;
@@ -105,4 +94,3 @@
   .envelope {
     margin-right: 10px;
   }
-}

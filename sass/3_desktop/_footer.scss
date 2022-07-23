@@ -38,17 +38,12 @@
 /* ------------------- ПОДПИСКА --------------------*/
 .subscribe-email {
   display: flex;
-  margin-right: auto;
   align-items: flex-end;
-  text-align: left;
-
   justify-content: space-between;
-
   width: 570px;
   height: 86px;
-  margin-left: 93px;
-  margin-top: 12px;
-
+  margin: 12px auto 0 93px;
+  
   & label {
     width: 358px;
   }

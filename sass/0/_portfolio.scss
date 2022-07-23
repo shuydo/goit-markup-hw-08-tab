@@ -5,10 +5,14 @@
   background-color: var(--filter-bg);
   padding: 6px 22px;
   margin-bottom: 15px;
+
+  font-size: 16px;
+  line-height: calc(26/16);
+  letter-spacing: 0.03em;
+
   border-radius: 4px;
   cursor: pointer;
-  // user-select: none;
-  transition: 1s;
+  transition: var(--delta-t);
 }
 
 .portfolio label:not(:last-of-type) {
