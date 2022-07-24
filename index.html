@@ -24,32 +24,17 @@
           <a class="logo link" lang="en" href="#" aria-label="Логотип">
             <span class="part1">Web</span><span class="part2">Studio</span>
           </a>
-          <!--target="_blank" rel="nofollow noreferrer"-->
-          <button
-            type="button"
-            class="menu-button"
-            aria-expanded="false"
-            aria-controls="menu-container"
-            data-menu-button
-            id="menu_btn"
-          >
-            <svg
-              width="40"
-              height="40"
-              aria-label="Переключатель мобильного меню"
-            >
+          <button class="menu-button" id="menuBtn">
+            <svg width="40" height="40" aria-label="mobi mnu switcher">
               <use class="icon-cross" href="./images/sprite-r.svg#cross"></use>
               <use class="icon-menu" href="./images/sprite-r.svg#menu"></use>
             </svg>
           </button>
 
-          <div class="menu-container" id="menu_container" data-menu>
-            <!-- <div class="menu-container" id="menu_container" data-menu> -->
+          <div class="menu-container" id="menuContainer" data-menu>
             <ul class="site-nav list">
               <li>
-                <a class="site-page link is-current" href="#">
-                  Студия
-                </a>
+                <a class="site-page link is-current" href="#"> Студия </a>
               </li>
               <li>
                 <a class="site-page link" href="portfolio.html">Портфолио</a>
@@ -85,7 +70,12 @@
           <h1 class="hero-title">
             Эффективные решения <br />для вашего бизнеса
           </h1>
-          <button type="button" class="button" data-modal-open id="openModalBtn">
+          <button
+            type="button"
+            class="button"
+            data-modal-open
+            id="openModalBtn"
+          >
             Заказать услугу
           </button>
         </div>
@@ -228,7 +218,7 @@
           <h2 class="team-header">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-item">
-                           <picture>
+              <picture>
                 <source
                   media="(max-width: 767px)"
                   type="image/webp"
@@ -275,7 +265,7 @@
                     ./images/desktop/img1@2x.jpg 2x
                   "
                 />
-                
+
                 <img src="./images/mobile/img1.jpg" alt="Игорь" />
               </picture>
 
@@ -333,7 +323,6 @@
               </ul>
             </li>
             <li class="team-item">
-
               <picture>
                 <source
                   media="(max-width: 767px)"
@@ -438,7 +427,6 @@
               </ul>
             </li>
             <li class="team-item">
-
               <picture>
                 <source
                   media="(max-width: 767px)"
@@ -543,7 +531,6 @@
               </ul>
             </li>
             <li class="team-item">
-
               <picture>
                 <source
                   media="(max-width: 767px)"
@@ -819,13 +806,18 @@
 
     <div class="backdrop is-hidden" data-modal id="modal">
       <div class="modal">
-        <button type="button" class="close-btn" data-modal-close id="closeModalBtn">
+        <button
+          type="button"
+          class="close-btn"
+          data-modal-close
+          id="closeModalBtn"
+        >
           <svg width="11" height="11">
             <use href="./images/sprite2.svg#c"></use>
           </svg>
         </button>
 
-        <form class="form" autocomplete="off">
+        <form class="form" id="form">
           <h2>Оставьте свои данные, мы вам перезвоним</h2>
 
           <label class="form-label">
@@ -900,14 +892,16 @@
             </span>
           </label>
 
-          <button class="button" type="button">Отправить</button>
+          <button class="button" type="submit">Отправить</button>
         </form>
       </div>
     </div>
 
-    <script src="js/modal.js"></script>
+    <!-- <script src="js/modal.js"></script>
     <script src="js/menu.js" type="module"></script>
-    <script src="js/input-grab.js"></script>
+    <script src="js/input-grab.js"></script> -->
+    <script src="js/index.js" type="module"></script>
+
     <!-- выводит в консоль результат ввода в форму class="form" (здесь '.form')  -->
   </body>
 </html>

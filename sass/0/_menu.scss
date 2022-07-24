@@ -22,7 +22,7 @@
 }
 
 .menu-container {
-  display: none; // mожно включить постоянно
+  display: none; 
   position: absolute;
   top: 100%;
   left: 0;
@@ -101,8 +101,6 @@
 .envelope {
   margin-right: 10px;
   fill: var(--primary-text-color);
-
-  // outline: 1px solid red;
 }
 
 .email:focus,

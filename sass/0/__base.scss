@@ -1,9 +1,11 @@
 //          Base
 
-@import "variables";
-@import "presets";
-@import "utils";
-@import "components";
+@import "./helpers/modern-normalize.min";
+
+@import "./helpers/variables";
+@import "./helpers/presets";
+@import "./helpers/utils";
+@import "./helpers/components";
 
 @import "menu";
 

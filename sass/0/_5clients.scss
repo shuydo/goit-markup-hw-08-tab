@@ -1,9 +1,6 @@
 //          0 Clients
 
-:root {
-  --mci: 15px; // --marg-cl-itm
-  --mcin: calc((-1) * (var(--mci))); //marginClientsItemNegative
-}
+
 .clients {
   &-header {
     margin-bottom: 30px;
@@ -27,31 +24,28 @@
   }
   &-item {
     margin: var(--mci);
-  
     height: 90px;
-    width: 100%;
+    width: calc((100% - 2 * 2 * var(--mci)) / 2);
   }
   &-link {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
-  
+
     text-align: center;
-  
+
     border: 1px solid #afb1b8;
     border-radius: 4px;
     color: #afb1b8;
-  
+
     transition: color var(--t-cubic);
-  
+
     &:hover,
     &:focus {
       border: 1px solid var(--accent-color);
       color: var(--accent-color);
       outline: none;
     }
-}
-
-
+  }
 }
