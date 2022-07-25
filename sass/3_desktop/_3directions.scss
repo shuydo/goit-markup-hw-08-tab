@@ -1,40 +1,39 @@
-@media screen and (min-width: $dt-res) {
-  .direction {
-    display: block;
-    margin-bottom: 94px;
+.direction {
+  display: block;
+  padding-top: 0;
 
-    &-list {
-      margin-top: 50px;
-      display: flex;
-      justify-content: space-between;
-    }
-    &-title {
-      font-size: 36px;
-      line-height: calc(42 / 36);
-      letter-spacing: 0.03em;
-      text-align: center;
-    }
+  &-list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
   }
-  .thumb {
+
+  &-title {
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  
+  & .thumb {
     position: relative;
     height: 294px;
-    background-color: #fff;
   }
-  .moir-content {
-    position: absolute;
-    bottom: 0;
-    // left: 0;
-    width: 100%;
-    padding: 27px 0;
+}
 
-    color: #ffffff;
-    background: rgba(47, 48, 58, 0.8);
+.moir-content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 27px 0;
 
-    font-weight: bold;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  }
+  color: #fff;
+  background: rgba(47, 48, 58, 0.8);
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }

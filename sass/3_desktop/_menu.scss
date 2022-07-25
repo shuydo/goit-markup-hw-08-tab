@@ -1,5 +1,10 @@
 //     Desktop Menu
 
+<<<<<<< HEAD
+.part2 {
+  color: #000; 
+}
+=======
 @media screen and (min-width: $dt-res) {
   .menu-button {
     display: none;
@@ -11,14 +16,23 @@
   //   // flex-direction: row;
   //   // padding-left: 305px;
   //   // margin-left: 305px;
+>>>>>>> 45332608be916937c74134d559e560ff407b3b7f
 
-  // }
-  .menu-container {
-    display: flex;
-    // justify-content: space-between;
-    // flex-grow: 1;
-    box-shadow: none;
+.header .container {
+  display: flex;
+  align-items: center;
+}
 
+<<<<<<< HEAD
+.site-nav {
+  margin-right: 305px;
+}
+
+.contacts {
+  margin-top: 0;
+
+  & a {
+=======
     // outline: 1px solid red;
   }
   // .nav{
@@ -111,43 +125,34 @@
     align-items: center;
 
     font-weight: 500;
+>>>>>>> 45332608be916937c74134d559e560ff407b3b7f
     font-size: 14px;
     line-height: calc(16 / 14);
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+  }
+}
 
-    transition: color var(--t-cubic);
-  }
-  // .phone {
-  //   margin-top: 10px;
-  // }
-  .envelope,
-  .smartphone {
-    margin-right: 10px;
+.email,
+.phone {
+  margin: 0;
+  display: flex;
+  align-items: center;
 
-    fill: var(--primary-text-color);
+  color: var(--primary-text-color);
 
-    transition: fill var(--t-cubic);
-  }
-  .header .email {
-    margin-right: 30px;
-  }
-  .header address {
-    display: flex;
-    margin-left: auto;
-  }
-  .site-nav .link:hover,
-  .site-nav .link:focus,
-  .email:hover,
-  .email:focus,
-  .phone:hover,
-  .phone:focus,
-  .map-address:hover,
-  .map-address:focus {
-    color: var(--accent-color);
-  }
-  .email:hover .envelope,
-  .phone:hover .smartphone {
-    fill: var(--accent-color);
-  }
+  transition: color var(--t-cubic);
+}
+
+.envelope,
+.smartphone {
+  margin-right: 10px;
+  fill: var(--primary-text-color);
+  transition: fill var(--t-cubic);
+}
+
+.header .email {
+  margin-right: 30px;
+}
+
+.header address {
+  display: flex;
 }

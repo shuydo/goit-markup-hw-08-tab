@@ -1,0 +1,44 @@
+//          0 Vertu
+
+.vertu {
+  &-header {
+    margin-top: 30px;
+
+    font-weight: bold; // 700
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+  }
+
+  &-list {
+    margin: -15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &-item {
+    margin: 15px;
+  }
+  & .icon {
+    margin: 25px 0;
+    width: 70px;
+    height: 70px;
+  }
+  &-text {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.035em; //0.03
+    color: var(--primary-text-color);
+  }
+}
+
+.icon-place {
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+}

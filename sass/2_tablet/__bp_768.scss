@@ -1,0 +1,16 @@
+//          Tablet
+.container {
+  max-width: 768px;
+}
+
+@import "menu";
+.header {
+  height: 80px;
+} // .zero {  height: 80px;}
+@import "2vertu";
+
+@import "4team";
+@import "5clients";
+@import "footer";
+
+@import "portfolio";

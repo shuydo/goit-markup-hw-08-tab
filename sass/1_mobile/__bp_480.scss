@@ -1,0 +1,17 @@
+//              Mobi
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+
+  .header & {
+    max-width: 767px;
+  }
+}
+
+@import "1hero";
+
+
+@import "backdrop_modal";
+@import "form";
+
+@import "portfolio";

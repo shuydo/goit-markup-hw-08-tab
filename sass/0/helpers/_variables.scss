@@ -1,0 +1,21 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --filter-focus-color: #000;
+  --text-on-dark-bg: #fff;
+
+  --tabs-color: #f5f4fa;
+
+  --primary-bcg-color: #fff;
+  --filter-bg: #f5f4fa;
+
+  --accent-color: #2196f3;
+  --accent-color-send-btn: #188ce8;
+
+  --mci: 15px; // --marg-cl-itm
+  --mcin: calc((-1) * (var(--mci))); //marginClientsItemNegative
+
+  --delta-t: 250ms;
+  --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+  --t-cubic: var(--delta-t) var(--cubic);
+}

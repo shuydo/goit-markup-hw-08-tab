@@ -1,0 +1,95 @@
+//          0 Footer
+
+.footer {
+  padding: 60px 0;
+  background-color: #2f303a;
+
+  &-logo {
+    text-align: center;
+  }
+
+  & .part2 {
+    color: #fff;
+  }
+
+  & address {
+    margin-top: 20px;
+    text-align: center; 
+  }
+
+  & .soc-icon {
+    fill: #fff;
+  }
+}
+
+.address-item {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-item:not(:first-of-type){
+  margin-top: 8px;
+}
+
+.map-address {
+  color: #fff;
+
+  transition: color var(--t-cubic);
+}
+.join-box {
+  margin-top: 60px;
+  text-align: center;
+}
+.join-header,
+.subscribe-email label {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+}
+.join-header {
+  display: block;
+  margin-bottom: 20px;
+}
+.soc-list-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.soc-links {
+  fill: #fff;
+  margin: 0 auto;
+}
+/* ------------------- ПОДПИСКА --------------------*/
+.subscribe-email {
+  margin-top: 60px;
+  text-align: center;
+}
+.subscribe-email input {
+  display: block;
+  margin-top: 20px;
+  padding-left: 16px;
+
+  width: 100%;
+  height: 50px;
+
+  line-height: calc(20 / 16);
+  color: #fff;
+  background-color: #2f303a;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+.subscribe-email button {
+  margin: 20px auto 0 auto;
+  padding: 10px 29px;
+  color: #fff;
+  background-color: var(--accent-color);
+}
+.send {
+  margin-left: 10px;
+}

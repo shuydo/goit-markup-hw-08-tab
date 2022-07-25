@@ -1,7 +1,9 @@
-// Tablet Vertu
+//          Tablet Vertu
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .vertu-item {
-      width: calc((100% - 2 * 2 * 15px) / 2);
-  }
+.vertu-item {
+  width: calc((100% - 2 * 2 * 15px) / 2);
+}
+
+.vertu-header{
+  text-align: left;
 }

@@ -1,0 +1,24 @@
+//          Base
+
+@import "./helpers/modern-normalize.min";
+
+@import "./helpers/variables";
+@import "./helpers/presets";
+@import "./helpers/utils";
+@import "./helpers/components";
+
+@import "menu";
+
+@import "0header";
+@import "1hero";
+@import "2vertu";
+  .direction {display: none;} 
+@import "4team"; 
+@import "5clients"; 
+@import "footer"; 
+
+@import "backdrop_modal";
+@import "form";
+
+@import "portfolio";
+

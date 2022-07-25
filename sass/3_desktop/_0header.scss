@@ -1,9 +1,10 @@
 //      Desktop Header
 
-@media screen and  (min-width: $dt-res) {
-  .logo {
-    font-size: 26px;
-    line-height: calc(31 / 26);
-    // (28 / 24) - Mobi & Tablet 
-  }
+.header .container {
+  min-width: 1200px;
+}
+// .zero {  display: none;}
+.logo {
+  font-size: 26px;
+  line-height: calc(31 / 26);
 }

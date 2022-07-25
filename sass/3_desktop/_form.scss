@@ -1,12 +1,10 @@
-//      Desktop Form
+//      DT Form
 
-@media screen and (min-width: $dt-res) {
-  .form h2 {
-    line-height: calc(23 / 20);
-  }
+.form h2 {
+  line-height: calc(23 / 20);
+}
 
-  .accept span {
-    font-size: 14px;
-    line-height: calc(24 / 14);
-  }
+.accept span {
+  font-size: 14px;
+  line-height: calc(24 / 14);
 }

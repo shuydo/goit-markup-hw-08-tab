@@ -1,0 +1,21 @@
+//                     Desktop styles
+
+section {padding: 94px 0}
+.container {max-width: 1200px}
+
+@import "menu";
+
+@import "0header";
+@import "1hero";
+@import "2vertu";
+@import "3directions";
+@import "4team";
+@import "5clients";
+@import "footer";
+
+.modal { width: 528px } // @import "backdrop_modal";
+@import "form";
+.products {
+  padding-top: 35px;
+  grid-template-columns: repeat(3, 1fr); 
+}// @import "portfolio";

@@ -1,20 +1,17 @@
 //      Desktop Team
 
-@media screen and (min-width: 1200px) {
-  .team {
-    padding: 94px 0;
-    
-    & img {
-      width: 270px;
-    }
-    &-header {
-      margin-bottom: 50px;
+.team {
+  & img {
+    width: 270px;
+  }
+  &-header {
+    margin-bottom: 50px;
 
-      font-size: 36px;
-      line-height: calc(42 / 36);
-    }
-    &-item {
-      padding-bottom: 30px;
-    }
+    font-size: 36px;
+    line-height: calc(42 / 36);
+  }
+  &-item {
+    padding-bottom: 30px;
+    width: inherit;
   }
 }
