@@ -5,7 +5,7 @@
     display: none;
   }
   .part2{
-    color: #000; //только в этом макете не 212121 
+    color: #000; 
   }
   // .contacts {
   //   // flex-direction: row;
@@ -27,18 +27,10 @@
   .header .container {
     display: flex;
     align-items: center;
-    // padding-top: 24px;
-    // padding-bottom: 25px;
   }
 
   .site-nav {
-    // display: flex;
-    // align-items: center;
-
-    // margin-left: 93px;
-  
-    // min-width: 294px;
-    // justify-content: space-between; 
+    
 
     width: 294px;
     height: 48px;
