@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>contacts</title>
 
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    /> -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -24,25 +20,14 @@
           <a class="logo link" lang="en" href="#" aria-label="Логотип">
             <span class="part1">Web</span><span class="part2">Studio</span>
           </a>
-          <button
-            type="button"
-            class="menu-button"
-            aria-expanded="false"
-            aria-controls="menu-container"
-            data-menu-button
-            id="menu_btn"
-          >
-            <svg
-              width="40"
-              height="40"
-              aria-label="Переключатель мобильного меню"
-            >
+          <button class="menu-button" id="menuBtn" type="button">
+            <svg width="40" height="40" aria-label="mobi mnu switcher">
               <use class="icon-cross" href="./images/sprite-r.svg#cross"></use>
               <use class="icon-menu" href="./images/sprite-r.svg#menu"></use>
             </svg>
           </button>
 
-          <div class="menu-container" id="menu_container" data-menu>
+          <div class="menu-container" id="menuContainer" data-menu>
             <ul class="site-nav list">
               <li>
                 <a class="site-page link" href="index.html"> Студия </a>
@@ -192,102 +177,6 @@
       </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal id="modal">
-      <div class="modal">
-        <button
-          type="button"
-          class="close-btn"
-          data-modal-close
-          id="closeModalBtn"
-        >
-          <svg width="11" height="11">
-            <use href="./images/sprite2.svg#c"></use>
-          </svg>
-        </button>
-
-        <form class="form" autocomplete="off">
-          <h2>Оставьте свои данные, мы вам перезвоним</h2>
-
-          <label class="form-label">
-            Имя
-            <div class="form-field">
-              <input
-                type="text"
-                class="form-input"
-                name="name"
-                placeholder=" "
-              />
-              <svg class="icon">
-                <use href="./images/sprite2.svg#person"></use>
-              </svg>
-            </div>
-          </label>
-
-          <label class="form-label">
-            Телефон
-            <div class="form-field">
-              <input
-                type="tel"
-                class="form-input"
-                name="phone"
-                placeholder=" "
-              />
-
-              <svg class="icon">
-                <use href="./images/sprite2.svg#phone"></use>
-              </svg>
-            </div>
-          </label>
-
-          <label class="form-label">
-            Почта
-            <div class="form-field">
-              <input
-                type="email"
-                class="form-input"
-                name="mail"
-                placeholder=" "
-              />
-              <svg class="icon">
-                <use href="./images/sprite2.svg#fenvelop"></use>
-              </svg>
-            </div>
-          </label>
-
-          <label class="form-label">
-            Комментарий
-            <div class="form-field">
-              <textarea
-                class="message"
-                rows="7"
-                name="message"
-                placeholder="Введите текст"
-              ></textarea>
-            </div>
-          </label>
-
-          <label class="accept">
-            <input
-              type="checkbox"
-              name="accept"
-              value="accept"
-              class="accept-input invisible"
-            />
-            <span class="custom-check-box"></span>
-            <span>
-              Соглашаюсь с рассылкой и принимаю
-              <a href="#">Условия договора</a>
-            </span>
-          </label>
-
-          <button class="button" type="button">Отправить</button>
-        </form>
-      </div>
-    </div>
-
-    <script src="js/modal.js"></script>
     <script src="js/menu.js" type="module"></script>
-    <script src="js/input-grab.js"></script>
-    <!-- выводит в консоль результат ввода в форму class="form" (здесь '.form')  -->
   </body>
 </html>
