@@ -1,29 +1,21 @@
 //     Desktop Menu
 
-<<<<<<< HEAD
 .part2 {
-  color: #000; 
+  color: #000;
 }
-=======
-@media screen and (min-width: $dt-res) {
-  .menu-button {
-    display: none;
-  }
-  .part2{
-    color: #000; 
-  }
-  // .contacts {
-  //   // flex-direction: row;
-  //   // padding-left: 305px;
-  //   // margin-left: 305px;
->>>>>>> 45332608be916937c74134d559e560ff407b3b7f
+
+.menu-button {
+  display: none;
+}
+.part2 {
+  color: #000;
+}
 
 .header .container {
   display: flex;
   align-items: center;
 }
 
-<<<<<<< HEAD
 .site-nav {
   margin-right: 305px;
 }
@@ -31,40 +23,18 @@
 .contacts {
   margin-top: 0;
 
-  & a {
-=======
-    // outline: 1px solid red;
-  }
-  // .nav{
-  //   // padding: 21px 0;
-  // }
   .header .container {
     display: flex;
     align-items: center;
   }
 
   .site-nav {
-    
-
     width: 294px;
     height: 48px;
-    // margin-left: 88px;
     margin-right: 305px;
     display: flex;
-    // align-items: flex-end ;
     justify-content: space-between;
-    // font-family: Roboto;
-    // font-style: normal;
-    // font-weight: 500;
-    // font-size: 14px;
-    // line-height: calc(16 / 14);
-    // letter-spacing: 0.02em;
-
-    // color: var(--title-text-color);
-
     margin-top: 32px;
-
-    // outline: 1px solid black;
   }
 
   .site-nav .link {
@@ -73,7 +43,7 @@
 
     font-weight: 500;
     font-size: 14px;
-    line-height: calc(16/14);
+    line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: var(--title-text-color);
     transition: color var(--t-cubic);
@@ -95,37 +65,21 @@
     border-radius: 2px;
     background-color: var(--accent-color);
   }
-  // .site-page{
-  //   // display: inline;
-  // outline: 1px solid black;
-  // }
   .contacts a {
     display: flex;
-    // font-family: Roboto;
-    // font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: calc(14 / 12);
     letter-spacing: 0.02em;
 
     color: var(--primary-text-color);
-
-    // outline: 1px solid black;
   }
-  // .contacts {
-
-  //   // display: none;
-  //   // margin-top: 21px;
-
-  //   // outline: 1px solid black;
-  // }
   .email,
   .phone {
     display: flex;
     align-items: center;
 
     font-weight: 500;
->>>>>>> 45332608be916937c74134d559e560ff407b3b7f
     font-size: 14px;
     line-height: calc(16 / 14);
   }

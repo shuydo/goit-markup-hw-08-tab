@@ -1141,6 +1141,12 @@ section {
   .part2 {
     color: #000;
   }
+  .menu-button {
+    display: none;
+  }
+  .part2 {
+    color: #000;
+  }
   .header .container {
     display: flex;
     align-items: center;
@@ -1151,7 +1157,55 @@ section {
   .contacts {
     margin-top: 0;
   }
-  .contacts a {
+  .contacts .header .container {
+    display: flex;
+    align-items: center;
+  }
+  .contacts .site-nav {
+    width: 294px;
+    height: 48px;
+    margin-right: 305px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+  }
+  .contacts .site-nav .link {
+    padding: 31px 0;
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428571429;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    transition: color var(--t-cubic);
+  }
+  .contacts .link.is-current {
+    color: var(--accent-color);
+  }
+  .contacts .link.is-current::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--accent-color);
+  }
+  .contacts .contacts a {
+    display: flex;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.1666666667;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+  }
+  .contacts .email,
+.contacts .phone {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.1428571429;
   }
